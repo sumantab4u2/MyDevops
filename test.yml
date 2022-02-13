@@ -1,7 +1,4 @@
----  
-hosts: all
-become: yes
- -tasks:
-    name: I want to ping you
-    names: ping 
-   
+---
+- name: Update web servers
+  hosts: webservers
+  ping: ping
