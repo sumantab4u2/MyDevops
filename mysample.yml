@@ -1,7 +1,7 @@
 ---
-  hosts: all
-  becomes: yes
-  tasks:
+ - hosts: all
+   becomes: yes
+   tasks:
     name: i want to ping all nodes
     ping: ping
    
