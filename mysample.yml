@@ -1,11 +1,6 @@
 ---
-- hosts: all
-  become: yes 
-  tasks: 
-  - name: i want ping 
-    ping: ping
-
-  - name : i want install webserver on ubuntu node
-    apt:
-      name:  apache2
-      state:  present
+ - hosts: all
+   become: yes 
+   tasks: 
+    - name: i want ping 
+      ping: ping
