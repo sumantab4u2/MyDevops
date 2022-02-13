@@ -1,1 +1,7 @@
 ---  
+hosts: all
+become: yes
+ -tasks:
+    name: I want to ping
+    names: ping 
+   
