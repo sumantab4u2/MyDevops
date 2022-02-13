@@ -1,5 +1,6 @@
 ---
-- myfruits:
-    apple
-    bsnsns
-    msngo
+- 
+  myfruits: 
+    - apple
+    - bsnsns
+    - msngo
