@@ -12,7 +12,7 @@
     when: ansible_os_family=="Debian"
   
   - name : i want to start my web server
-    apt :
+    service :
      name: apache2
      state: started
     when : ansible_os_family=="Debian"
@@ -24,7 +24,7 @@
     when: ansible_os_family=="RedHat"
   
   - name : i want to start my Redhat Ansible  server
-    apt :
+    service :
      name: httpd
      state: started
     when : ansible_os_family=="RedHat"
