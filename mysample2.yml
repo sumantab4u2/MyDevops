@@ -11,6 +11,6 @@
       state:  present
 
   - name : i want start webserver on ubuntu node
-    apt:
+    service:
       name:  apache2
       state:  started
